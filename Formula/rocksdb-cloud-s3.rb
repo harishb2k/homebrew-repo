@@ -11,7 +11,7 @@ class RocksdbCloudS3 < Formula
   depends_on "harishb2k/repo/aws-sdk-cpp"
   
   stable do
-    url "https://github.com/apache/rocksdb-cloud.git", :using => :git, :tag => "0.0.1"
+    url "https://github.com/harishb2k/rocksdb-cloud.git", :using => :git, :tag => "0.0.1"
   end
     
   def install
