@@ -12,7 +12,7 @@ class IncubatorBrpc < Formula
   depends_on "glog"
   
   stable do
-    head "https://github.com/apache/incubator-brpc.git", :tag => "0.9.7"
+    url "https://github.com/apache/incubator-brpc.git", :using => :git, :tag => "0.9.7"
   end
     
   def install
