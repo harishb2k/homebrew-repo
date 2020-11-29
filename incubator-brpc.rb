@@ -14,7 +14,7 @@ class IncubatorBrpc < Formula
   def install
     system "cmake", ".", "-DWITH_GLOG=ON", *std_cmake_args
     
-    system "make", "install"	
+    system "make", "-j4", "install"	
   end
 
   test do
