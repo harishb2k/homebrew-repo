@@ -10,6 +10,7 @@ class IncubatorBrpc < Formula
   depends_on "cmake" => :build
   depends_on "openssl"
   depends_on "glog"
+  depends_on "leveldb"
   
   stable do
     url "https://github.com/apache/incubator-brpc.git", :using => :git, :tag => "0.9.7"
