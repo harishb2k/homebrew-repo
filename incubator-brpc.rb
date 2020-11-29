@@ -5,7 +5,7 @@ class IncubatorBrpc < Formula
   desc "Build BRPC"
   homepage "https://github.com/apache/incubator-brpc"
   license ""
-  head "https://github.com/apache/incubator-brpc.git" :tag => "0.9.7"
+  head "https://github.com/apache/incubator-brpc.git", :tag => "0.9.7"
 
   depends_on "cmake" => :build
   depends_on "openssl"
