@@ -19,7 +19,7 @@ class IncubatorBrpc < Formula
           "-DCMAKE_BUILD_TYPE=Release",
           "'-DBUILD_ONLY=s3;kinesis;transfer'", 
           "-DBUILD_SHARED_LIBS=OFF",
-          ""-DCMAKE_CXX_FLAGS=\"-Wno-deprecated-declarations\"",
+          "-DCMAKE_CXX_FLAGS='-Wno-deprecated-declarations'",
           *std_cmake_args
     
     system "make", "-j4", "install" 
