@@ -47,5 +47,12 @@ RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/mast
 USER root
 ENV PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
 ```
+---
+**NOTE**
 
-<b> Note (brew will build and install in "brew --prefix" location (/home/linuxbrew/.linuxbrew/lib and /home/linuxbrew/.linuxbrew/include)
+brew will build and install in "brew --prefix" location:
+```
+/home/linuxbrew/.linuxbrew/lib
+/home/linuxbrew/.linuxbrew/include
+```
+--
