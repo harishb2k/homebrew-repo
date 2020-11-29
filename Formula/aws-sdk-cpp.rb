@@ -11,6 +11,8 @@ class  AwsSdkCpp  < Formula
   depends_on "openssl"
   depends_on "glog"
   depends_on "zlib"
+  depends_on "curl"
+
   
   stable do
     url "https://github.com/aws/aws-sdk-cpp.git", :using => :git, :tag => "1.7.150"
