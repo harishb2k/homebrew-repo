@@ -12,10 +12,10 @@ class  AwsSdkCpp  < Formula
   depends_on "glog"
   
   stable do
-    url "https://github.com/aws/aws-sdk-cpp.git", :using => :git, :tag => "tags/1.7.150"
+    url "https://github.com/aws/aws-sdk-cpp.git", :using => :git, :tag => "1.7.150"
   end
   
-  
+
   def install
     system "cmake", 
           ".",
