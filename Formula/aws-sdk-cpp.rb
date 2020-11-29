@@ -1,8 +1,8 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class IncubatorBrpc < Formula
-  desc "Build BRPC"
+class  AwsSdkCpp  < Formula
+  desc "Build AwsSdkCpp"
   homepage "https://github.com/aws/aws-sdk-cpp"
   license ""
   head "https://github.com/aws/aws-sdk-cpp.git", :tag => "tags/1.7.150"
