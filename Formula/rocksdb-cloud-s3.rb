@@ -5,13 +5,13 @@ class RocksdbCloudS3 < Formula
   desc "Build RocksDB-Cloud"
   homepage "https://github.com/harishb2k/rocksdb-cloud"
   license ""
-  head "https://github.com/harishb2k/rocksdb-cloud.git", :tag => "0.0.1"
+  head "https://github.com/harishb2k/rocksdb-cloud.git", :tag => "0.0.2"
 
   depends_on "cmake" => :build
   depends_on "harishb2k/repo/aws-sdk-cpp"
   
   stable do
-    url "https://github.com/harishb2k/rocksdb-cloud.git", :using => :git, :tag => "0.0.1"
+    url "https://github.com/harishb2k/rocksdb-cloud.git", :using => :git, :tag => "0.0.2"
   end
     
   def install
