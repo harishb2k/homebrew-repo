@@ -12,6 +12,7 @@ class IncubatorBrpc < Formula
   depends_on "glog"
   depends_on "leveldb"
   depends_on "protobuf"
+  depends_on "zlib"
   
   stable do
     url "https://github.com/apache/incubator-brpc.git", :using => :git, :tag => "0.9.7"
