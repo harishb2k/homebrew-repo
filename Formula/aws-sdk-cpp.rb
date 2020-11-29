@@ -22,7 +22,7 @@ class  AwsSdkCpp  < Formula
           "-DENABLE_TESTING=OFF",
           "-DAUTORUN_UNIT_TESTS=OFF", 
           "-DCMAKE_BUILD_TYPE=Release",
-          "'-DBUILD_ONLY=s3;kinesis;transfer'", 
+          "-DBUILD_ONLY='s3;kinesis;transfer'", 
           "-DBUILD_SHARED_LIBS=OFF",
           "-DCMAKE_CXX_FLAGS='-Wno-deprecated-declarations'",
           *std_cmake_args
