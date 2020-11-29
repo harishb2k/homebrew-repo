@@ -1,15 +1,14 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class RocksDbCloudS3 < Formula
+class RocksdbCloudS3 < Formula
   desc "Build RocksDB-Cloud"
   homepage "https://github.com/harishb2k/rocksdb-cloud"
   license ""
   head "https://github.com/harishb2k/rocksdb-cloud.git", :tag => "0.0.1"
 
   depends_on "cmake" => :build
-  depends_on "openssl"
-  depends_on "glog"
+  depends_on "harishb2k/repo/aws-sdk-cpp"
   
   stable do
     url "https://github.com/apache/rocksdb-cloud.git", :using => :git, :tag => "0.0.1"
