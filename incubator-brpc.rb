@@ -2,17 +2,16 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class IncubatorBrpc < Formula
-  desc ""
-  homepage ""
+  desc "Build BRPC"
+  homepage "https://github.com/apache/incubator-brpc"
   license ""
-  head "https://github.com/apache/incubator-brpc.git"
+  head "https://github.com/apache/incubator-brpc.git" :tag => "0.9.7"
 
   depends_on "cmake" => :build
-
+  depends_on "openssl"
+  depends_on "glog"
+  
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-    # Remove unrecognized options if warned by configure
-    # system "cmake", "cmake . -DWITH_GLOG=ON", "--prefix=#{prefix}"
     system "cmake", ".", "-DWITH_GLOG=ON", *std_cmake_args
     
     system "make", "install"	
