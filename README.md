@@ -14,7 +14,7 @@ brew install harishb2k/repo/aws-sdk-cpp
 ```
 
 ###### Install RocksDB Cloud With S3
-Parent Project => https://github.com/harishb2k/rocksdb-cloud.git (Tag 0.0.1)
+Parent Project => https://github.com/harishb2k/rocksdb-cloud.git (Tag 0.0.2)
 ```
 brew install harishb2k/repo/rocksdb-cloud-s3
 ```
