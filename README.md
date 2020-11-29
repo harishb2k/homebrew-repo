@@ -47,4 +47,3 @@ brew will build and install in "brew --prefix" location:
 /home/linuxbrew/.linuxbrew/lib
 /home/linuxbrew/.linuxbrew/include
 ```
---
