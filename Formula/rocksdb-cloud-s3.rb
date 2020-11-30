@@ -9,6 +9,10 @@ class RocksdbCloudS3 < Formula
 
   depends_on "cmake" => :build
   depends_on "harishb2k/repo/aws-sdk-cpp"
+  depends_on "gflags"
+  depends_on "lz4"
+  depends_on "snappy"
+  depends_on "zstd"
   
   stable do
     url "https://github.com/harishb2k/rocksdb-cloud.git", :using => :git, :tag => "0.0.2"
